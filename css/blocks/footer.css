@@ -1,0 +1,109 @@
+.footer {
+    height: 75px;
+    background-color: #131415;
+    margin-top: -75px;
+    padding-top: 11px;
+    position: relative;
+
+}
+
+.footer__author-info {
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+    line-height: 18px;
+    width: 41.1%;
+}
+
+.footer__school-link {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer__author-name    {
+    font-weight: 700;
+}
+
+.footer__company-name {
+    font-size: 18.18px;
+    font-family: "gora_free";
+    letter-spacing: 2px;
+    color: #f89513;
+    width: 42.3%;
+    float: left;
+    padding-top: 16px;
+    padding-left: 13px;
+}
+
+.footer__share {
+    width: 16.6%;
+    float: left;
+    padding-top: 6px;
+}
+
+.footer__social-networks {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    letter-spacing: 0.7px;
+    margin-bottom: 3px;
+}
+
+.footer__share-list {
+    font-size: 0;
+}
+
+.footer__share-btn {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.footer__share-btn:last-child {
+    margin-right: 0;
+}
+
+.footer__share-btn-link {
+    display: block;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: #d0d0d0;
+}
+
+.footer__share-btn-link:hover {
+    background-color: #f89513;
+}
+
+.footer__share-btn-pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 14px;
+    height: 14px;
+}
+
+.footer__share-btn-pic--vk {
+    background: url('../../img/share/social-sprite.png') 0 0 no-repeat;
+}
+.footer__share-btn-pic--fb {
+    background: url('../../img/share/social-sprite.png') -100px 0 no-repeat;
+}
+.footer__share-btn-pic--google {
+    background: url('../../img/share/social-sprite.png') -200px 0 no-repeat;
+}
+.footer__share-btn-pic--twitter {
+    background: url('../../img/share/social-sprite.png') -300px 0 no-repeat;
+}
+.footer__share-btn-pic--mail {
+    background: url('../../img/share/social-sprite.png') -400px 0 no-repeat;
+}
+
+
+
+

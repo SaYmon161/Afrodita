@@ -1,0 +1,21 @@
+.benefits {
+    background-image: url(../../img/feedback-avatars/feedback-benefits-bg/pattern.jpg);
+    background-repeat: repeat-x;
+    min-height: 171px;
+    font-weight: 200;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 21px;
+    margin-bottom: 61px;
+}
+
+.benefits__text {
+    padding-left: 107px;
+    width: 80%;
+    line-height: 30px;
+}
+
+.benefits__request {
+    color: #f89513;
+    font-weight: 700;
+}

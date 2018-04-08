@@ -1,0 +1,162 @@
+.news {
+    min-height: 897px;
+}
+
+.news__last-news {
+    float: left;
+    width: 83.9%;
+    min-height: 675px;
+    vertical-align: top;
+}
+
+.news__title {
+    font-weight: 700;
+    font-size: 49px;
+    text-align: center;  
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 68px;  
+}
+
+.news__list {
+    font-family: "roboto";
+    margin-bottom: 44px;
+    text-align: left;
+}
+
+.news__item {
+    min-height: 194px;
+    margin-bottom: 27px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.news__item:last-child {
+    border-bottom: initial;
+    margin-bottom: 0;
+}
+
+.picture__wrap {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+/* .news__picture {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+} */
+
+.picture__wrap--no-avatar {
+    display: block;
+    position: relative;
+}
+
+.news__picture--no-avatar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95px;
+    height: 114px;
+    filter: grayscale(100%);
+}
+
+.news__content {
+    max-width: 700px;
+    float: left;
+}
+
+.news__date {
+    color: #656464;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 6px;
+}
+
+.news__item-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.news__text {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.news__list--less-margin {
+    margin-bottom: 31px;
+}
+
+.pagination {
+    font-family: "roboto";
+    width: 352px;
+    margin-left: 360px;
+    font-size: 0;
+}
+
+
+.pagination__pagecounter {
+    font-weight: 200;
+    color: #656464;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 11px;  
+}
+
+.pagination__list {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 2px;
+}
+
+.pagination__item {
+    display: inline-block;
+    text-align: center;
+}
+
+.pagination__link   {
+    display: inline-block;
+    font-weight: 700;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #221f1f;
+    border-radius: 3px;
+}
+
+.pagination__link--active {
+    background-color: #27273e;
+    color: #ffffff;
+}
+
+.pagination__link:hover {
+    color: #f89513;
+}
+
+.pagination__backward {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 6px;
+}
+
+.pagination__forward {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pagination--center {
+    margin-left: 265px;
+}

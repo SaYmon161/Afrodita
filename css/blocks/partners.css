@@ -1,0 +1,35 @@
+.title1--partners {
+    margin-bottom: 77px;
+}
+
+.partners__list {
+    font-size: 0;
+
+    margin-bottom: 84px;
+}
+
+.partners__item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26%;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: 59px;
+}
+
+.partners__image {
+    filter: grayscale(100%);
+    transition: .3s;
+}
+
+.partners__image:hover {
+    filter: grayscale(0);
+}
+
+.partners__item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.partners__item:nth-child(n+4) {
+    margin-bottom: 0;
+}
