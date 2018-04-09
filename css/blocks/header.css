@@ -157,9 +157,9 @@
 .header__dropdown::after {
     content: '';
     width: 100%;
-    height: 21px;
+    height: 23px;
     position: absolute;
-    top: -16px;
+    top: -19px;
     right: 0;
 }
 
