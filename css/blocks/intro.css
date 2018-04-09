@@ -6,23 +6,24 @@
     position: relative;
 }
 
-.intro__mask {
+.intro__background:after {
+    content: '';
     width: 100%;
     height: 100%;
+    background-color: #000;
+    opacity: .5;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000;
-    opacity: .6;
 }
 
 .intro__animation {
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
     text-align: center;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .center {
