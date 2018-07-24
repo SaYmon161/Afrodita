@@ -1,1 +1,2 @@
-# saymon161.github.io
+# Afrodita
+# Loftschool educational project
